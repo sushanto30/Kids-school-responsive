@@ -11,6 +11,24 @@ body {
     margin: 0 8.75rem;
 }
 
+/* shard style  */
+
+.btn-primary {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius:10px;
+    margin-top:15px;
+}
+
+.tittle-description {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top:20px;
+}
+
 
 
 /* nav style  */
@@ -20,9 +38,10 @@ body {
     justify-content: space-between;
     /* justify-content: center; */
     align-items: center;
-  
+
 }
-#manu-bar{
+
+#manu-bar {
     width: 40px;
     height: 30px;
     display: none;
@@ -93,25 +112,55 @@ body {
     font-size: 15px;
     font-weight: 500;
 }
- 
+
+/* Banner section  */
+.banner-container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 100px;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+}
+
+.banner-tittle {
+    font-size: 56px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.em-color {
+    color: #FEA301;
+}
+
+.age-color {
+    color: #01ACFD;
+}
 
 
 
 
- @media screen and (max-width:676px) {
-    .school-header{
+@media screen and (max-width:676px) {
+    .school-header {
         display: none;
     }
 
-    #manu-bar{
+    #manu-bar {
         display: block;
     }
-    body{
+
+    body {
         margin: 0 10px;
+ 
     }
-    .nav-container{
+
+    .nav-container {
         border-bottom: 2px solid sandybrown;
         padding: 10px;
     }
-    
- }
+    .banner-container{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+}
