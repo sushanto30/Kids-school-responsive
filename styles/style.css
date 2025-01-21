@@ -229,6 +229,26 @@ body {
     font-weight: 700;
 }
 
+/* arro-btn */
+.arro-btn-container {
+    display: flex;
+    margin: 50px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.arro-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #FEA301;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+}
+
 /* Our Stories */
 
 .stories-container {
@@ -269,7 +289,8 @@ body {
     /* margin: 20px; */
     background: rgb(255, 255, 255);
 }
-.story-card>img{
+
+.story-card>img {
     width: 100%;
 }
 
@@ -292,6 +313,7 @@ body {
     text-align: center;
     color: white;
 }
+
 .position-btn-2 {
     position: relative;
     left: 30px;
@@ -305,22 +327,77 @@ body {
     text-align: center;
     color: white;
 }
-.pad{
+
+.pad {
     padding: 0 40px;
 }
 
 /* button */
-.btn{
+.btn {
     margin-top: 80px;
     display: flex;
     /* text-align: center; */
     justify-content: center;
     align-items: center;
+    /* margin-bottom: 50px; */
+}
+
+.btn-2 {
     margin-bottom: 50px;
 }
-.btn-2{
-    margin-bottom: 50px;
+
+/* footer */
+
+footer {
+    background: rgb(1, 172, 253);
 }
+
+.footer-container {
+    margin: 0 8.75rem;
+    display: flex;
+    padding: 120px 0px;
+    gap: 20px;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.about-school>h5 {
+    color: rgb(255, 255, 255);
+
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about-school>li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.keep-touch>h4 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.roll {
+    color: white;
+}
+
+ 
 
 
 
@@ -338,7 +415,8 @@ body {
     .card-container,
     .banner-container,
     .nav-container,
-    .card-container-2 {
+    .card-container-2,
+    .footer-container {
         margin: 0 10px;
         overflow-x: hidden;
 
@@ -359,16 +437,27 @@ body {
         justify-content: center;
         align-items: center;
     }
-    .big-card{
+
+    .footer-container {
+        flex-direction: column;
+        align-items: start;
+        padding: 30px;
+
+    }
+
+    .big-card, .arro-btn-container {
         display: none;
     }
-    .small-card-container{
+
+    .small-card-container {
         grid-template-columns: repeat(2 1fr);
     }
-    .story-card > img{
+
+    .story-card>img {
         width: 100%;
     }
-    .position-btn{
+
+    .position-btn {
         left: 15px;
     }
 
