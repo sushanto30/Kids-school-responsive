@@ -397,7 +397,16 @@ footer {
     color: white;
 }
 
- 
+ .scroll-mar{
+
+    margin: 20px 8.75rem;
+    background-color: #febd25;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    
+ }
 
 
 
@@ -416,7 +425,8 @@ footer {
     .banner-container,
     .nav-container,
     .card-container-2,
-    .footer-container {
+    .footer-container,
+    .scroll-mar {
         margin: 0 10px;
         overflow-x: hidden;
 
@@ -425,6 +435,7 @@ footer {
     .nav-container {
         border-bottom: 2px solid sandybrown;
         padding: 10px;
+        margin-bottom: 10px;
     }
 
     .banner-container {
